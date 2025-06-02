@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: white;
+    padding: 20px 0;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 150px;
+  }
+  
+  .login {
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .start-button {
+    background-color: #00b4d8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background-color: #eafaff;
+    padding: 100px 0;
+    position: relative;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #00b4d8;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .hero-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  /* Designs Gallery */
+  #designs {
+    background-color: white;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .design-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .design-gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    scroll-snap-align: center;
+  }
+  
+  .explore-button {
+    background-color: #00b4d8;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  
+  /* Why Choose Us */
+  #why-us {
+    background-color: #0c3440;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .feature {
+    text-align: center;
+  }
+  
+  .feature img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .create-button {
+    background-color: #00b4d8;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  /* Save the Dates */
+  #save-dates {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    display: flex;
+    gap: 40px;
+  }
+  
+  .left-side {
+    flex: 1;
+  }
+  
+  .right-side {
+    flex: 1;
+  }
+  
+  .discount {
+    color: #00b4d8;
+    font-weight: bold;
+  }
+  
+  .get-started-button {
+    background-color: #00b4d8;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  /* Zola Registry */
+  #zola-registry {
+    background-color: white;
+    padding: 60px 0;
+    display: flex;
+    gap: 40px;
+  }
+  
+  .zola-registry .left-side {
+    flex: 1;
+  }
+  
+  .zola-registry .right-side {
+    flex: 1;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #0c3440;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+  }
+  
+  footer p {
+    margin-bottom: 20px;
+  }
