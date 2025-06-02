@@ -36,6 +36,7 @@
   
   .logo {
     width: 150px;
+    border-radius: 250px;
   }
   
   .login {
