@@ -12,7 +12,6 @@
   }
   
   a {
-    text-decoration: none;
     color: inherit;
   }
   
@@ -51,7 +50,6 @@
     border: none;
     border-radius: 30px;
     font-size: 1em;
-    cursor: pointer;
   }
   
   /* Hero Section */
@@ -82,7 +80,6 @@
     border: none;
     border-radius: 30px;
     font-size: 1em;
-    cursor: pointer;
   }
   
   .hero-image {
@@ -92,7 +89,6 @@
     width: 50%;
     height: 100%;
     object-fit: cover;
-    z-index: -1;
   }
   
   /* Designs Gallery */
@@ -107,7 +103,6 @@
     justify-content: center;
     gap: 20px;
     overflow-x: auto;
-    scroll-snap-type: x mandatory;
   }
   
   .design-gallery img {
@@ -115,7 +110,6 @@
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
-    scroll-snap-align: center;
   }
   
   .explore-button {
@@ -125,7 +119,6 @@
     border: none;
     border-radius: 30px;
     font-size: 1em;
-    cursor: pointer;
     margin-top: 30px;
   }
   
@@ -151,7 +144,6 @@
   .feature img {
     width: 50px;
     height: 50px;
-    object-fit: cover;
     border-radius: 50%;
     margin-bottom: 10px;
   }
@@ -163,7 +155,6 @@
     border: none;
     border-radius: 30px;
     font-size: 1em;
-    cursor: pointer;
   }
   
   /* Save the Dates */
@@ -194,7 +185,6 @@
     border: none;
     border-radius: 30px;
     font-size: 1em;
-    cursor: pointer;
   }
   
   /* Zola Registry */
